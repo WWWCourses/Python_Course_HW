@@ -11,11 +11,11 @@ bucket_1_volume = 2
 bucket_2_volume = 3
 
 input_volume = 12
+res = 0
 
 if input_volume%(bucket_1_volume+bucket_2_volume)==0:
 	res = input_volume//(bucket_1_volume+bucket_2_volume)
 else:
 	pass
 
-# why error
 print(res)
